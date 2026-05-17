@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}Meedidoddi Sharath Kumar | AIML Student & Aspiring AI Engineer{% endblock %}
+
 {% block content %}
 
 <!-- ================= HERO SECTION ================= -->
@@ -11,7 +12,7 @@
         <p class="small-label">AIML Student • Aspiring AI Engineer</p>
 
         <h1 class="hero-title">
-        Hi, I'm
+            Hi, I'm
             <span class="hero-name">Meedidoddi Sharath Kumar</span>
         </h1>
 
@@ -31,7 +32,9 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </a>
 
-            
+            <a href="{{ url_for('static', filename='resume/ATS_Friendly_Technical_Resume.pdf') }}" 
+               target="_blank" 
+               class="secondary-btn">
                 View Resume
                 <i class="fa-solid fa-file-lines"></i>
             </a>
@@ -192,6 +195,8 @@
     </div>
 
 </section>
+
+
 <!-- ================= PROJECTS SECTION ================= -->
 <section class="section projects-section" id="projects">
 
@@ -289,7 +294,7 @@
 
             <div class="project-links">
                 <a href="https://github.com/sharath900/cervical-cancer-cell-detection-django.git" target="_blank">
-                    GitHub <i class="fa-solid fa-clock"></i>
+                    GitHub <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="#" target="_blank">
                     Live Demo Coming Soon <i class="fa-solid fa-clock"></i>
@@ -300,7 +305,6 @@
     </div>
 
 </section>
-
 
 
 <!-- ================= CERTIFICATIONS SECTION ================= -->
@@ -388,7 +392,7 @@
 
         <div class="contact-actions">
 
-            <a href="mailto:dhnau13435@gmail.com.com" class="primary-btn">
+            <a href="mailto:dhanu13435@gmail.com" class="primary-btn">
                 Email Me
                 <i class="fa-solid fa-envelope"></i>
             </a>
